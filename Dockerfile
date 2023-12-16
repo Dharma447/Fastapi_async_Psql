@@ -6,4 +6,4 @@ RUN pip3 install -r requirements.txt
 
 COPY . .
 
-CMD ["python3", "uvicorn", "main:app"]
+CMD ["uvicorn", "main:app"]
